@@ -1,0 +1,116 @@
+.card-body {
+  position: relative;
+  height: 380px !important;
+}
+.wp-block-file {
+  margin-top: 3rem;
+}
+.wp-block-file__button {
+  background-color: #1d2327;
+  font-size: 20px;
+  text-decoration: none !important;
+}
+.wp-block-file__button:hover {
+  color: white;
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 80%,
+    #00c0ff 100%
+  );
+  animation: slidebg 5s linear infinite;
+}
+.attachment-post-thumbnail {
+  width: 315px;
+  height: 160px;
+  background-size: cover;
+}
+/* .wp-p-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+} */
+.card-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+footer {
+  background-color: #1d2327;
+  color: white;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: white;
+  text-decoration: none;
+}
+.nav-link{
+  color: white;
+}
+
+.post .entry-header h1{
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.post .entry-content p{
+  font-size: 24px;
+}
+.find-container{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 62px;
+  padding-bottom: 80px;
+}
+
+.find-bg-img{
+  background-image: url('../assets/allianze-bg.jpeg');
+  background-repeat: round;
+  width: 100%;
+  object-fit: cover;
+  height: 395px;
+}
+.find-container .find-bg-img h1{
+  margin: 1.3em 0;
+}
+.find-btn{
+  background-color: white;
+  color: #006192;
+  padding: 10px;
+  width: fit-content;
+  margin-top: 1.5em;
+  border-radius: 2px;
+
+}
+.login-container{
+  height: 500px;
+}
+.text-container{
+  width: 50%;
+}
+
+.laptop-man{
+  background-image: url('../assets/man-with-laptop.png');
+  width: 448px;
+  height: 248px;
+}
+
+.portal-text{
+  margin: 15px 0 40px 0!important;
+}
+
+.login-btn{
+  margin-top: 15px;
+  color: white;
+  border-radius: 2px;
+  background-color: #007ab3;
+  padding: 10px;
+}
